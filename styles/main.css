@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../Images/blue.jpg);
+    width: 100%;
+}
+
+h1, h2 {
+    padding: 10px 12px;
+    color:rgb(0, 139, 132);
+    text-align: center;
+}
+
+.topnav a {
+    float: right;
+    color: rgb(0, 106, 85);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color:darkslategrey;
+    font-weight:bolder;
+}
+
+#box {
+    box-sizing: content-box;
+    width: 100%;
+
+}
+
+p {
+    text-align: center;
+    color:rgb(0, 230, 218);
+    margin-top: 50px;
+}
+
+#foot {
+    
+    box-sizing: content-box;
+    opacity: 50%;
+}
