@@ -40,7 +40,7 @@ nav a {
 }
 
 #about {
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
     width: 100%;
 
 }
@@ -52,10 +52,13 @@ p {
     padding-left: 20px;
 }
 
-
+#contact {
+    position: relative;    
+    right: 50%;
+}
 
 #foot {
-
-    box-sizing: content-box;
+    position: fixed;
+    bottom: 0;
     opacity: 50%;
 }
