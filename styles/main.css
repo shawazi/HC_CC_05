@@ -39,6 +39,12 @@ nav a {
     font-weight:bolder;
 }
 
+main h3{
+    text-align: center;
+    color: white;
+
+}
+
 #about {
     /* box-sizing: content-box; */
     width: 100%;
@@ -50,15 +56,11 @@ p {
     color:rgb(0, 230, 218);
     margin-top: 50px;
     padding-left: 20px;
+    padding-top: 20px;
+    line-height: 20px;
 }
 
 #contact {
     position: relative;    
     right: 50%;
-}
-
-#foot {
-    position: fixed;
-    bottom: 0;
-    opacity: 50%;
 }
