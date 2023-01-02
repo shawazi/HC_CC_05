@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   color: rgb(66, 156, 162);
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: "Lato", sans-serif;
 }
 
