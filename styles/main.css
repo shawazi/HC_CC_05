@@ -79,7 +79,8 @@ header a {
   order: 2;
 }
 
-.box-3 {
+.box-3 {  flex-direction: column;
+  justify-content: space-around;
   flex: 2;
   order: 2;
   text-align: center;
