@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 100px;
+}
+
 body {
   background: url("../Images/blue.jpg");
   background-repeat: no-repeat;
@@ -38,14 +42,7 @@ header a {
 
 .topnav {
   padding-right: 1%;
-}
-
-#about {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: auto;
-}
+} 
 
 .box-1 {
   background-color: black;
