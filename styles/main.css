@@ -102,6 +102,11 @@ header a {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+  color: rgb(165, 231, 251);
+}
+
+.footer {
+  text-shadow: 1px 1px 1px rgb(14, 186, 146);
 }
 
 .address-cont {
