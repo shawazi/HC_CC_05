@@ -46,11 +46,14 @@ header a {
 }
 
 .box-1 {
-  position: sticky;
-  top: 0;
   background-color: black;
   align-items: center;
   justify-content: space-between;
+}
+
+.cont-1 {
+  position: sticky;
+  top: 0;
 }
 
 .cont-2 h3 {
