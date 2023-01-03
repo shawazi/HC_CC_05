@@ -108,6 +108,8 @@ header a {
 
 .footer {
   text-shadow: 1px 1px 1px rgb(14, 186, 146);
+  background-color: black;
+  opacity: 50%;
 }
 
 .address-cont {
