@@ -74,6 +74,15 @@ header a {
   color: rgb(91, 138, 182);
 }
 
+main h3 {
+  color: rgb(16, 119, 170);
+  text-shadow: 2px 2px 2px black;
+}
+
+main ul li {
+  display: inline-block;
+}
+
 .box-2 {
   flex: 2;
   order: 2;
