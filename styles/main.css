@@ -30,14 +30,15 @@ header {
   justify-content: space-between;
 }
 
-header a {
-  text-decoration: none;
-  color: white;
+header h1, header h2 {
+  letter-spacing: 5px;
+  font-weight: bolder;
+  text-shadow: 1px 2px 2px purple;
 }
 
-.box-3 a {
+header a {
   text-decoration: none;
-  color: lightblue;
+  color: rgb(91, 138, 182);
 }
 
 .topnav {
@@ -88,7 +89,8 @@ main ul li {
   order: 2;
 }
 
-.box-3 {  flex-direction: column;
+.box-3 {  
+  flex-direction: column;
   justify-content: space-around;
   flex: 2;
   order: 2;
