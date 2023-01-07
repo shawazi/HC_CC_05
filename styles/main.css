@@ -63,16 +63,18 @@ header a {
 
 .topnav {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-between;
   align-items: center;
   margin-top: 8%;
   margin-left: 10%;
+  /* word-spacing: .2rem */
 }
 
-/* .topnav a {
-  word-spacing: .2rem !important; 
-
-} */
+.topnav a {
+  display: inline-block;
+  margin-right: -80px;
+  
+}
 
 .box-1 {
   background-color: black;
@@ -93,7 +95,7 @@ header a {
 
 #leftmore {
   padding-bottom: 2%;
-  padding-right: 18%;
+  /* padding-right: 18%; */
 }
 
 #period {
@@ -127,7 +129,7 @@ hr {
 #rightmore {
   text-shadow: 1px 1px 1px green;
   font-size: 2rem;
-  padding-left: 15rem;
+  /* padding-left: 15rem; */
   padding-top: 1rem;
 
 }
