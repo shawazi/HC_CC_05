@@ -32,7 +32,8 @@ img {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  height: 100px;
 }
 
 header h1, header h2 {
@@ -46,8 +47,9 @@ header a {
   color: rgb(91, 138, 182);
 }
 
-nav a {
+.zoom {
   /* background-color: green; */
+  display: inline-block;
   text-decoration: none;
   transition: transform .2s; /* Animation */
   width: 150px;
@@ -55,14 +57,22 @@ nav a {
   margin: 0 auto;
 }
 
-nav a:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .topnav {
-  padding-right: 1%;
-  word-spacing: 1rem; 
-} 
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+
+/* .topnav a {
+  word-spacing: .2rem !important; 
+
+} */
 
 .box-1 {
   background-color: black;
@@ -98,7 +108,7 @@ nav a:hover {
 
 #obnoxious {
   letter-spacing: .5em;
-  font-size: 350%;
+  font-size: 250%;
 }
 
 .cont-2 h1 {
