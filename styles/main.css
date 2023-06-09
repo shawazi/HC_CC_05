@@ -49,12 +49,11 @@ header a {
 
 .zoom {
   /* background-color: green; */
-  display: inline-block;
   text-decoration: none;
   transition: transform .2s; /* Animation */
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
+  margin: 20px;
+
+  cursor: pointer;
 }
 
 .zoom:hover {
@@ -65,26 +64,33 @@ header a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8%;
-  margin-left: 10%;
+  /* margin-top: 8%;
+  margin-left: 10%; */
+  
   /* word-spacing: .2rem */
 }
 
-.topnav a {
+/* .topnav a {
   display: inline-block;
   margin-right: -80px;
   
-}
+} */
 
 .box-1 {
   background-color: black;
   align-items: center;
   justify-content: space-between;
+  display: flex;
+  width: 100%;
 }
 
 .cont-1 {
-  position: sticky;
-  top: 0;
+  /* position: sticky; */
+  /* top: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .cont-2 {
@@ -134,10 +140,10 @@ hr {
 
 }
 
-.box-1 {
+/* .box-1 {
   flex: 2;
   order: 2;
-}
+} */
 
 .name {
   font-family: "Courier New", Courier, monospace;
