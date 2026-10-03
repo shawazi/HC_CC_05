@@ -1,0 +1,13 @@
+{
+  "name": "Shawaz Imam — Backend & Platform Engineer",
+  "short_name": "Shawaz Imam",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0c0e12",
+  "theme_color": "#0c0e12",
+  "icons": [
+    { "src": "/Images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/Images/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/Images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

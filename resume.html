@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shawaz Imam — Résumé</title>
+    <meta name="description" content="Résumé of Shawaz Imam, software engineer." />
+    <link rel="icon" href="./favicon.ico" sizes="32x32" />
+    <link rel="icon" href="./Images/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ink: #16181d;
+        --muted: #4a5060;
+        --rule: #d9d6ce;
+        --accent: #0f7a5c;
+        --paper: #ffffff;
+        --page-bg: #f2f0ea;
+        color-scheme: light;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          --page-bg: #0c0e12;
+        }
+      }
+      :root[data-theme="dark"] {
+        --page-bg: #0c0e12;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--page-bg);
+        cursor: default;
+        font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        color: var(--ink);
+        font-size: 10pt;
+        line-height: 1.42;
+        -webkit-font-smoothing: antialiased;
+      }
+      .bar {
+        max-width: 8.5in;
+        margin: 16px auto 0;
+        padding: 0 16px;
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        font-size: 13px;
+      }
+      .bar a {
+        color: var(--accent);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      @media (prefers-color-scheme: dark) {
+        .bar a { color: #6ee0b5; }
+      }
+      .page {
+        max-width: 8.5in;
+        margin: 12px auto 32px;
+        padding: 0.55in 0.6in;
+        background: var(--paper);
+        box-shadow: 0 1px 2px #0000001a, 0 12px 32px -16px #00000040;
+        border-radius: 6px;
+      }
+      header { border-bottom: 2px solid var(--ink); padding-bottom: 10px; }
+      h1 { margin: 0; font-size: 22pt; letter-spacing: -0.02em; line-height: 1.1; }
+      .title { margin-top: 3px; font-size: 11pt; font-weight: 600; color: var(--accent); }
+      .contact { margin-top: 6px; color: var(--muted); font-size: 9pt; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+      .contact a { color: inherit; text-decoration: none; }
+      h2 {
+        margin: 14px 0 6px;
+        font-size: 9pt;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--accent);
+        border-bottom: 1px solid var(--rule);
+        padding-bottom: 3px;
+      }
+      p { margin: 0; }
+      .summary { color: var(--muted); }
+      .skills { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1px 18px; }
+      .skills li { margin: 0; color: var(--muted); }
+      .skills b { color: var(--ink); }
+      .job { margin-top: 9px; }
+      .job-head, li { break-inside: avoid; }
+      .job-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+      .job-head b { font-size: 10.5pt; }
+      .job-head span { color: var(--muted); font-size: 9pt; white-space: nowrap; }
+      .org { color: var(--muted); font-style: italic; }
+      ul { margin: 4px 0 0; padding-left: 15px; }
+      li { margin: 2px 0; }
+      li::marker { color: var(--accent); }
+      .stack { color: var(--muted); font-size: 8.8pt; margin-top: 2px; }
+      @media (max-width: 640px) {
+        .page { padding: 24px 18px; border-radius: 0; margin: 8px 0 24px; }
+        .skills { grid-template-columns: 1fr; }
+        .job-head { flex-direction: column; gap: 0; }
+        .job-head span { white-space: normal; }
+      }
+      @page { size: Letter; margin: 0.3in 0.45in 0.28in; }
+      @media print {
+        body { background: #fff; font-size: 9pt; line-height: 1.27; }
+        h1 { font-size: 19pt; }
+        h2 { margin: 6px 0 2px; }
+        .job { margin-top: 4px; }
+        header { padding-bottom: 7px; }
+        li { margin: 0; }
+        .bar { display: none; }
+        .page { box-shadow: none; margin: 0; padding: 0; max-width: none; border-radius: 0; }
+        a { color: inherit; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bar">
+      <a href="./">← shawaz.org</a>
+    </div>
+    <main class="page">
+      <header>
+        <h1>Shawaz Imam</h1>
+        <p class="title">Software Engineer</p>
+        <p class="contact">
+          <a href="mailto:shawaz@shawaz.org">shawaz@shawaz.org</a>
+          <a href="https://shawaz.org">shawaz.org</a>
+          <a href="https://github.com/shawazi">github.com/shawazi</a>
+          <a href="https://www.linkedin.com/in/shawazi/">linkedin.com/in/shawazi</a>
+          <span>Remote · US</span>
+        </p>
+      </header>
+
+      <h2>Summary</h2>
+      <p class="summary">
+        Software engineer, self-taught since 2018. I build full-stack web applications and backend services,
+        working test-first and owning the full SDLC. I also build custom software for clients and manage
+        facilities.
+      </p>
+
+      <h2>Experience</h2>
+      <div class="job">
+        <div class="job-head"><b>Independent Software Engineer</b><span>Aug 2023 – Present</span></div>
+        <p class="org">Full-stack web applications and backend services</p>
+        <ul>
+          <li>Design and build web applications and backend services for clients, using modern web stacks.</li>
+          <li>Work test-driven, owning the full software development lifecycle from design through deployment.</li>
+        </ul>
+        <p class="stack">TypeScript · JavaScript · React · Node.js · Python · Rust · PostgreSQL · Docker · CI/CD</p>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>Facilities Manager</b><span>Dec 2024 – Present</span></div>
+        <p class="org">Greater Boston</p>
+        <ul>
+          <li>Coordinate maintenance requests and contractors across multiple sites; staff the 24/7 emergency line and respond on site.</li>
+          <li>Run logistics: communications, data normalization, and monthly reports.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>Hyperbaric Chamber Installation &amp; Maintenance Technician</b><span>Oct 2023 – Present</span></div>
+        <p class="org">Oxygen Health Systems, independent contractor</p>
+        <ul>
+          <li>Installed 8 hard- and soft-shell hyperbaric oxygen chambers at client sites; monitor clients during sessions as needed.</li>
+          <li>Maintain 3 of them on a regular schedule, and diagnose and repair unexpected failures on site.</li>
+        </ul>
+      </div>
+
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li><b>Languages:</b> TypeScript, JavaScript, Python, Rust, SQL, Bash</li>
+        <li><b>Backend:</b> Node.js, REST, WebSockets</li>
+        <li><b>Frontend:</b> React, Next.js, Tailwind, Playwright</li>
+        <li><b>Data:</b> PostgreSQL, Redis, SQLite</li>
+        <li><b>Infra:</b> Docker, GitHub Actions, Linux, Git</li>
+        <li><b>Practices:</b> TDD, CI/CD, full SDLC</li>
+      </ul>
+
+      <h2>Additional Experience</h2>
+      <div class="job" style="margin-top: 4px">
+        <div class="job-head"><b>Self-Taught Automotive Mechanic</b><span>2016 – Present</span></div>
+        <ul>
+          <li><b>Brakes:</b> calipers, pads, rotors, hoses, drum brakes, brake-line splicing, bleeding.</li>
+          <li><b>Suspension/steering:</b> ball joints, inner and outer tie rods, CV axles, wheel bearings, lug studs.</li>
+          <li><b>Engine/drivetrain:</b> transmission work, alternators, starters, spark plugs, exhaust, oil changes.</li>
+          <li><b>Electrical/interior:</b> subwoofer and amplifier wiring, head units, dash cams, headlights, headliner, wheel refinishing.</li>
+        </ul>
+      </div>
+
+      <h2>Education</h2>
+      <div class="job-head" style="margin-top: 4px"><span style="color: var(--ink); font-size: 10pt"><b>B.A., Interdisciplinary Studies (Applied Psychology)</b>, University of Massachusetts Amherst</span><span>2024</span></div>
+      <div class="job-head"><span style="color: var(--ink); font-size: 10pt"><b>Full Stack Developer Certification</b>, Clarusway</span><span>2023</span></div>
+      <div class="job-head"><span style="color: var(--ink); font-size: 10pt"><b>Self-directed study</b>: Python, JavaScript, HTML, Flask, Git, Linux</span><span>2018 – Present</span></div>
+    </main>
+    <script>
+      try {
+        var t = localStorage.getItem("shawaz-theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    </script>
+  </body>
+</html>

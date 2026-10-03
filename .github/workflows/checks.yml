@@ -1,0 +1,13 @@
+name: checks
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate HTML files exist
+        run: |
+          for f in index.html resume.html 404.html; do
+            test -f "$f" || { echo "Missing $f"; exit 1; }
+          done
+          echo "All pages present"
